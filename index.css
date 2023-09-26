@@ -1,0 +1,58 @@
+html {
+    background: linear-gradient(rgb(73, 253, 73), rgb(95, 95, 247));
+    background-attachment: fixed;
+}
+body {
+    background-repeat: no-repeat;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ 
+}
+
+#container {
+    width: 60%;
+    max-width: 300px;
+    margin: auto;
+    background-color: beige;
+    text-align: center;
+    border: 2px solid burlywood;
+    padding: 20px;
+    border-radius: 10%;
+    margin-top: 50px;
+    box-shadow: 5px 5px 16px rgba(0, 0, 0, 0.5);
+}
+
+#counter-el {
+    font-size: 200%;
+}
+
+[id$="btn"] {
+    font-family: inherit;
+    font-size: 120%;
+    width: 150px;
+    display: block;
+    margin: auto;
+    border: none;
+    border-radius: 12px;
+    margin-bottom: 5px;
+    padding: 6px;
+    cursor: pointer;
+}
+
+#increment-btn {
+    background-color: rgb(73, 253, 73);
+}
+
+#save-btn {
+    background-color: rgb(95, 95, 247);
+}
+
+#saved-el, #sum-el {
+    font-size: 120%;
+}
+
+footer {
+    margin-top: 20px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
